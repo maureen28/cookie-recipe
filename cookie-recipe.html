@@ -3,19 +3,64 @@
 
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="/css/styles.css">
   <title> Best Chocolate Chip Cookies </title>
 </head>
 
 <body>
   <h1><b>BEST CHOCOLATE CHIP COOKIES</b></h1>
-  <img src="http://lorempixel.com/400/200/" alt="An image of a cookie" />
-  <p> This recipe is from my dad and they are a favorite among friends and family.<br\>
-      The secret ingredient is the coconut! <em>Be warned</em>, these will fly off of the plate! </p>
-  <!-- Add in section about history of cookies? <h3> History of cookies </h3> <p>Most people don't know the complicated past of the cookie. FINISH -->
+  <img src="http://lorempixel.com/400/200/" alt="An image of a cookie" usemap="#cookie" />
+  <map name="cookie">
+    <area shape="circle" coords="30,24,16,40" href="http://lorempixel.com/400/200/" alt="cookie" onclick="myFunction()">
+  </map>
+  <p><blockquote>For generations we have had to</blockquote> This recipe is from my dad and they are a favorite among friends and family.<br\>
+      <br>The <q>secret ingredient</q> is the<cite> coconut!</cite> <em>Be warned</em>, these will fly off of the plate! </p>
+ <!--Table-->
+ <table>
+   <th colspan="3" class="head">My cooking schedule</th>
+   <tr>
+     <th colspan="3">day</th>
+   </tr>
+   <tr>
+   <th>Monday</th>
+   <td>Cake</td>
+   <td>Muffins</td>
+  </tr>
+  <tr>
+   <th>Tuesday</th>
+   <td colspan="2">Cookies</td>
+  </tr>
+   <tr>
+   <th>wednesday</th>
+   <td>Choclate mousse</td>
+   <td>Tiramisu</td>
+  </tr>
+  <tr>
+   <th>thursday</th>
+   <td rowspan="2">Croissaint</td>
+   <td>Almond cake</td>
+  </tr>
+  <tr>
+   <th>friday</th>
+   <td>Milkshake</td>
+  </tr>
+ </table>
+ <!--End of table-->
+      <!--SVG-->
+<svg width="350" height="350">
+  <rect width="300" height="200" x="20" y="60" fill="#FF000F"/>Rectangle
+</svg>
+<svg width="350" height="350">
+  <ellipse cx="130" cy="130" rx="50" ry="45" fill="green"/>Ellipse
+</svg>
+<svg width="300" height="300">
+  <circle cx="130" cy="130" r="50" fill="rgb(122,245,0)"/>Circle
+</svg>
+      <!-- Add in section about history of cookies? <h3> History of cookies </h3> <p>Most people don't know the complicated past of the cookie. FINISH -->
   <h2><strong>INGREDIENTS</strong></h2>
   <ul>
     <li> Butter</li>
-    <li> White sugar</li>
+    <li><bdo dir="rtl">White Sugar</bdo></li>
     <li> Brown sugar</li>
     <li> Eggs</li>
     <li> Vanilla</li>
