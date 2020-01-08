@@ -28,8 +28,17 @@ table, th, td{
     border-collapse: initial;
     border-spacing: 4px;
     padding: 8px;
+    empty-cells:hide;
+    table-layout: auto;
+    
 }
 th{
 text-transform: capitalize;
 font-size: 19.5px;
+
+}
+caption{
+    caption-side: bottom;
+    text-align: left;
+    font-size: 23px;
 }
